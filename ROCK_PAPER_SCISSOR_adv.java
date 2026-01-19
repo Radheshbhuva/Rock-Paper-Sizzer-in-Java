@@ -6,14 +6,6 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 
 public class ROCK_PAPER_SCISSOR_adv {
-    public static final String RESET = "\u001B[0m";
-    public static final String RED = "\u001B[31m";
-    public static final String GREEN = "\u001B[32m";
-    public static final String YELLOW = "\u001B[33m";
-    public static final String BLUE = "\u001B[34m";
-    public static final String PURPLE = "\u001B[35m";
-    public static final String CYAN = "\u001B[36m";
-    public static final String BOLD = "\u001B[1m";
 
     static final String HISTORY_FILE = "game_history.txt";
     static int getGameCount() {
@@ -46,13 +38,12 @@ public class ROCK_PAPER_SCISSOR_adv {
             System.out.println(RED + "Error writing game history." + RESET);
         }
     }
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int gameNumber = getGameCount() + 1; 
+        int gameNumber = getGameCount() + 1;
 
         String[] choices = {"Rock", "Paper", "Scissors"};
         int userScore = 0;
