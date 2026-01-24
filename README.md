@@ -171,123 +171,103 @@ Library               |  Purpose
 
 ### 🖥️ Sample Console Output ### 
 ```
-Welcome to Rock Paper Scissors - Best of 5!
-First player to win 3 rounds wins the game!
+Rock Paper Scissors - Best of 5
+Game History Logging Enabled
+Game Number: 13
+Select Difficulty:
+1. Easy
+2. Medium
+3. Hard
+1
+Difficulty Selected: Easy
 
-ROUND 1
-Current Score - You: 0 Computer: 0
-
-Enter your choice:
 1. Rock
 2. Paper
 3. Scissors
+1
+You chose: Rock
+Computer chose: Scissors
+You win this round!
+Score → You: 1 | Computer: 0
 
 ```
 
 ### Example Sessions ###
 ```
-Welcome to Rock Paper Scissors - Best of 5!
-First player to win 3 rounds wins the game!
+Rock Paper Scissors - Best of 5
+Game History Logging Enabled
+Game Number: 13
+Select Difficulty:
+1. Easy
+2. Medium
+3. Hard
+1
+Difficulty Selected: Easy
 
-ROUND 1
-Current Score - You: 0 Computer: 0
-
-Enter your choice:
 1. Rock
 2. Paper
 3. Scissors
 1
-
 You chose: Rock
-Computer chose: Rock
-This round is a tie! No points awarded.
-
-SCORE:
-You: 0 | Computer: 0
-
-ROUND 1
-Current Score - You: 0 Computer: 0
-
-Enter your choice:
-1. Rock
-2. Paper
-3. Scissors
-2
-
-You chose: Paper
-Computer chose: Rock
+Computer chose: Scissors
 You win this round!
+Score → You: 1 | Computer: 0
 
-SCORE:
-You: 1 | Computer: 0
-
-ROUND 2
-Current Score - You: 1 Computer: 0
-
-Enter your choice:
 1. Rock
 2. Paper
 3. Scissors
 3
-
 You chose: Scissors
-Computer chose: Paper
-You win this round!
+Computer chose: Scissors
+Tie!
+Score → You: 1 | Computer: 0
 
-SCORE:
-You: 2 | Computer: 0
-
-ROUND 3
-Current Score - You: 2 Computer: 0
-
-Enter your choice:
 1. Rock
 2. Paper
 3. Scissors
 1
-
 You chose: Rock
 Computer chose: Rock
-This round is a tie! No points awarded.
+Tie!
+Score → You: 1 | Computer: 0
 
-SCORE:
-You: 2 | Computer: 0
-
-ROUND 3
-Current Score - You: 2 Computer: 0
-
-Enter your choice:
 1. Rock
 2. Paper
 3. Scissors
 2
-
 You chose: Paper
-Computer chose: Paper
-This round is a tie! No points awarded.
+Computer chose: Scissors
+Computer wins this round!
+Score → You: 1 | Computer: 1
 
-SCORE:
-You: 2 | Computer: 0
+1. Rock
+2. Paper
+3. Scissors
+2
+You chose: Paper
+Computer chose: Rock
+You win this round!
+Score → You: 2 | Computer: 1
 
-ROUND 3
-Current Score - You: 2 Computer: 0
-
-Enter your choice:
 1. Rock
 2. Paper
 3. Scissors
 3
-
 You chose: Scissors
+Computer chose: Rock
+Computer wins this round!
+Score → You: 2 | Computer: 2
+
+1. Rock
+2. Paper
+3. Scissors
+1
+You chose: Rock
 Computer chose: Paper
-You win this round!
+Computer wins this round!
+Score → You: 2 | Computer: 3
 
-SCORE:
-You: 3 | Computer: 0
-
-=== GAME OVER ===
-Final Score - You: 3 Computer: 0
-Congratulations! You won the game!
+Final Win Percentage: 28.57%
 
 Process finished with exit code 0
 ```
