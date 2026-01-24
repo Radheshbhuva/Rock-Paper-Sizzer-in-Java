@@ -95,6 +95,10 @@ public class RPS_Difficulty_Winperc {
         int totalRounds = 0;
         final int ROUNDS_TO_WIN = 3;
 
+        System.out.println(PURPLE + BOLD + "Rock Paper Scissors - Best of 5" + RESET);
+        System.out.println(CYAN + "Game History Logging Enabled" + RESET);
+        System.out.println(BLUE + "Game Number: " + gameNumber + RESET);
+        
         System.out.println(PURPLE + BOLD + "Select Difficulty:" + RESET);
         System.out.println("1. Easy\n2. Medium\n3. Hard");
 
@@ -151,3 +155,4 @@ public class RPS_Difficulty_Winperc {
         scanner.close();
     }
 }
+
